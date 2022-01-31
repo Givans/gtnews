@@ -1,6 +1,6 @@
 # gtnews
 # NewsApp
-### Web Developer.
+### [Web Developer](http://givansot.herokuapp.com/).
 A bit overview, it uses mediastack.com API to get news and get JSON data back. Then it is parsed using a json library.
 
 #### Note: To run the app you have to add [mediastack.com](https://mediastack.com/signup) key. I have taken this step to due to limited access to daily request for News. Getting a key would take just few seconds :)
