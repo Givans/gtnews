@@ -13,6 +13,12 @@ A bit overview, it uses mediastack.com API to get news and get JSON data back. T
     ```
     api_key="YOUR_API_KEY"
     ``` 
+   - if you are from adifferent country you can cjange the country as follows in views.py:
+     ```
+      url = f'http://api.mediastack.com/v1/news?access_key={api_key}&keywords={search}&countries=ke'
+    ``` 
+    replace 'ke' with your countries initials eg espn or us
+      
 
 
 #### Demo
