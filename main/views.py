@@ -8,7 +8,7 @@ def main(request):
 
 
 def updates(request):
-    api_key = 'b63b016673121a601821ad595240b3e8'
+    api_key = 'your_api_key'
     if request.method == 'POST':
         search = request.POST['search']
     else:
